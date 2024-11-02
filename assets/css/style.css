@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#ele1{
+    width: 200px;
+    padding: 20px ;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.menu img {
+   max-width: 400px;
+}
+
+.menu a {
+    margin: 20px;
+    border: 1px solid white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu a:hover {
+    border-color: black;
+}
+
+.volver {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
